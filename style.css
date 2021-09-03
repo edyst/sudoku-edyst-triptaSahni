@@ -10,8 +10,8 @@ h2{
 .cell{
     border:1px solid lightgray;
 }
-.prefilled{
-    background-color: #C3D7EA !important;
+.ClassALready{
+    background-color: #C3D7EA ;
 }
 .cell:nth-child(3n)
 {
@@ -80,14 +80,14 @@ input::-webkit-inner-spin-button {
   -webkit-appearance: none;
   margin: 0;
 }
-.errorrow{
-    background-color:lightseagreen;
+.rowChange{
+    background-color:rgb(231, 183, 183);
 }
-.errorcolumn{
-    background-color:lightpink;
+.columnChange{
+    background-color:rgb(174, 231, 100);
 }
-.errorblock{
-    background-color:lightgreen;
+.blockChange{
+    background-color:rgb(231, 31, 205);
 }
 @media only screen and (max-width: 480px) {
 
